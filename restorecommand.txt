@@ -1,0 +1,9 @@
+f:
+
+cd F:\ArcGIS\Portal\tools\webgisdr
+
+.\webgisdr.bat --import --file F:\ArcGIS\GeoBackup\egisfull.properties
+
+"F:\ArcGIS\Portal\tools\webgisdr\webgisdr.bat"
+
+"F:\ArcGIS\GeoBackup\egisfull.properties"

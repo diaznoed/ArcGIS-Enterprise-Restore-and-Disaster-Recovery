@@ -1,0 +1,24 @@
+F:\ArcGIS\DataStore\tools> .\configurebackuplocation.bat --location "type=fs;location=F:\arcgisdatastore\backup\relational\"
+You are attempting to change properties for an existing backup location or configure a new default backup location for the relational data store.
+
+If you are configuring a new default backup location, it must be a file-based location. You cannot use a cloud-based location as the default backup location for the relational data store. This utility will try to copy existing backups in the current default backup location to this new location and it could take a few moments. Please do not interrupt the process once it has started.
+
+Do you want to continue (Yes or No)?yes
+
+backupdatastore nameofdatabase --location type=fs;location=F:\backups\datastore
+
+--location type=fs;location=F:\arcgisdatastore\backup\relational\dbbackup
+
+PS F:\ArcGIS\DataStore\tools> .\restoredatastore.bat --store relational --target 20241005-051047-utc-61-full --source-loc "F:\arcgisdatastore\backup\relational\dbbackup" --server-url https://server.com:6443 --server-admin GISAdmin --server-password password
+
+
+
+
+
+
+
+
+
+
+
+
